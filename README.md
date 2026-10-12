@@ -12,5 +12,16 @@ process list, while sharing the host's kernel.
 ``` ps -ef | head -n 15 ```
 
 
+Image: 
 
+Container: a running instance of an image
 
+Registry: a server that stores Docker images i.e DockerHub, Github Container Registry, Amazon Elastic Container Registry (ECR)
+
+Volume: storage that outlives ( persists ) a container
+
+Network: virtual network letting docker containers find each other by name
+
+Compose: A YAML file desribing several containers that run together
+
+The Linux kernel exposes each process under the proc/ folder.
