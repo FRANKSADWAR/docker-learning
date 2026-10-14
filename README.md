@@ -33,7 +33,7 @@ Databases, web servers, SSH, and docker itself are daemons. Yout talk to a daemo
 
 Image: 
 
-Container: a running instance of an image
+Container: a running instance of an image. A container is an ordeinary process started inside its own namespace. It shares the host kernel, which is why it starts in milliseconds.
 
 Registry: a server that stores Docker images i.e DockerHub, Github Container Registry, Amazon Elastic Container Registry (ECR)
 
